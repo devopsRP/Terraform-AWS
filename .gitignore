@@ -1,0 +1,82 @@
+# -----------------------------
+# Terraform files
+# -----------------------------
+
+# Local .terraform directories
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# Terraform lock file (optional: usually keep it)
+.terraform.lock.hcl
+
+# -----------------------------
+# AWS credentials & config
+# -----------------------------
+
+# AWS credentials (DO NOT COMMIT)
+.aws/
+
+# Environment variable files
+.env
+.env.*
+
+# -----------------------------
+# Logs & misc
+# -----------------------------
+
+*.log
+*.out
+*.err
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# IDE / Editor
+# -----------------------------
+
+.vscode/
+.idea/
+
+# -----------------------------
+# Node (if using with AWS Lambda / tools)
+# -----------------------------
+
+node_modules/
+
+# -----------------------------
+# Python (if using boto3 etc.)
+# -----------------------------
+
+__pycache__/
+*.pyc
+
+# -----------------------------
+# Build / temp files
+# -----------------------------
+
+dist/
+build/
+tmp/
+temp/
