@@ -1,4 +1,4 @@
-Here’s a refined **README.md** in clear English, including how to use the Load Balancer DNS in a browser to see your app output:
+
 
 ---
 
